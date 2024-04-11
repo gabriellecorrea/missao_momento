@@ -5,9 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
-
-}
+body {}
 
 header {
     background-color: #40E0D0;
@@ -23,11 +21,13 @@ header {
 nav {
     width: 80%;
     display: flex;
-    justify-content:right;
+    justify-content: right;
     align-items: center;
 }
 
-.serv, .cont, .sobre {
+.serv,
+.cont,
+.sobre {
     padding: 20px;
 }
 
@@ -47,8 +47,14 @@ img {
     width: 100%;
 }
 
-.valores {
+.valores,
+.missao {
     margin: 0 5% 0;
+}
+
+.titulo {
+    margin: 20px;
+    margin-left: 0;
 }
 
 .paragrafo {
@@ -59,4 +65,3 @@ div p {
     padding: 1%;
     text-align: justify;
 }
-
