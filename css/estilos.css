@@ -51,6 +51,10 @@ img {
     margin: 0 5% 0;
 }
 
+.paragrafo {
+    background-color: aliceblue;
+}
+
 div p {
     padding: 1%;
     text-align: justify;
