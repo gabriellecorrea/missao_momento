@@ -63,6 +63,31 @@ main {
     padding: 40px;
 }
 
+.botao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    float: right;
+    padding-top: 5em;
+}
+
+.botao h2 {
+
+}
+
+input {
+    background-color: #40E0D0;
+    border: none;
+    width: 20%;
+    min-width: 250px;
+    height: 3em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
 .texto h1 {
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
