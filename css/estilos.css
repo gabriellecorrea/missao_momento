@@ -4,18 +4,26 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-
-body {}
-
+  
 header {
     background-color: #40E0D0;
     display: flex;
     justify-content: center;
-    padding: 0 5% 0;
+    padding: 0 3% 0;
+    width: 100%;
+    height: 80px;
+
 }
 
 .logo {
     width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80%;
+    min-width: 150px;
 }
 
 nav {
@@ -37,31 +45,129 @@ main {
     flex-wrap: wrap;
 }
 
-#img {
+#inicio {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-img {
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;    
+    background-image: url('../img/img_tec.jpg');
+    background-position: center center;
+    height: 700px;
     width: 100%;
+    color: white;
+    padding: 40px;
 }
 
-.valores,
-.missao {
+.texto h1 {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+}
+
+.texto h2 {
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.missao,
+.projetos,
+.testemunho {
     margin: 0 5% 0;
 }
 
+.projetos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.valores .titulo {
+    margin: 0 5% 0;
+
+}
+
 .titulo {
-    margin: 20px;
-    margin-left: 0;
+    padding: 20px 0 20px;
 }
 
 .paragrafo {
+    background-color: #8CE0D8;
+    padding: 20px 7% 20px 7%;
+}
+
+.paragrafo p {
+    text-align: left;
+}
+
+.paragrafo-2 {
     background-color: aliceblue;
+    padding: 20px 7% 20px 9%;
+
+}
+
+.paragrafo-2 p {
+    text-align: right;
 }
 
 div p {
     padding: 1%;
     text-align: justify;
+}
+
+.testemunho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.parag-testemunho {
+    display: flex;
+    justify-content: center;
+    background-color: #8CE0D8;
+    border-radius: 10px;
+    padding: 1em;
+    width: 90vw;
+}
+
+.parag-testemunho p {
+    font-weight: 500;
+}
+
+.proj-1,
+.proj-2,
+.proj-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.direitos {
+    color: white;
+}
+
+@media screen and (max-width: 750px){
+    .imagem img {
+        display: none;
+    }
 }
